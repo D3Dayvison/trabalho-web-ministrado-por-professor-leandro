@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #fff;
+    padding: 14px 14%;
+}
+.header a{
+    color: black;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+}
+.header button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.header button{
+    background-color: transparent;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.header button:hover{
+      background-color: #32a85f3a;
+
+}
